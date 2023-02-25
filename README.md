@@ -1,5 +1,8 @@
 # grub
 
+
+### Reset root password
+
 1. Press `Esc` key to enter into the grub menu.
 
 2. From the GRUB boot prompt, press the `E` button to edit the first boot option.
