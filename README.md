@@ -6,11 +6,14 @@ In the GRUB menu, find the kernel line starting with `linux /boot/` and add `ini
 
 Press `CTRL+X` to save.
 
-
+Mount the file system:
 ```bash
 mount -o remount,rw /
 ```
 
+
+
+https://www.layerstack.com/resources/tutorials/Resetting-root-password-for-Linux-Cloud-Servers-by-booting-into-Single-User-Mode
 
 
 
