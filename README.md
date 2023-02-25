@@ -11,13 +11,17 @@ Mount the file system:
 mount -o remount,rw /
 ```
 
+Change the password:
+```bash
+passwd
+```
+
+Reboot:
+```bash
+reboot -f
+```
 
 
 https://www.layerstack.com/resources/tutorials/Resetting-root-password-for-Linux-Cloud-Servers-by-booting-into-Single-User-Mode
 
 
-
-in the `linux` line change read only to:
-```
-ro -> 
-```
