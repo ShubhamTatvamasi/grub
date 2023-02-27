@@ -10,5 +10,10 @@ Update grub settings:
 sudo update-grub
 ```
 
+Upload crash logs:
+```bash
+journalctl -rb -1 | nc termbin.com 9999
+```
+
 https://danstechjourney.com/ubuntu-desktop-freezing-after-suspend/
 
