@@ -20,5 +20,11 @@ Upload crash logs:
 journalctl -rb -1 | nc termbin.com 9999
 ```
 
+Check the suspend service status:
+```bash
+systemctl status systemd-suspend
+```
+
+
 https://danstechjourney.com/ubuntu-desktop-freezing-after-suspend/
 
