@@ -25,6 +25,10 @@ Check the suspend service status:
 systemctl status systemd-suspend
 ```
 
+Check the login service status:
+```bash
+systemctl status systemd-logind
+```
 
 https://danstechjourney.com/ubuntu-desktop-freezing-after-suspend/
 
