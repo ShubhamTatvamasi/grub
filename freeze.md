@@ -10,6 +10,11 @@ Update grub settings:
 sudo update-grub
 ```
 
+Check grub service status:
+```bash
+systemctl status grub-initrd-fallback
+```
+
 Upload crash logs:
 ```bash
 journalctl -rb -1 | nc termbin.com 9999
