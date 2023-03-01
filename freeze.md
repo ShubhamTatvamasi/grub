@@ -5,6 +5,11 @@ Change grub settings:
 sudo vim /etc/default/grub
 ```
 
+Update the `GRUB_CMDLINE_LINUX_DEFAULT` variable:
+```bash
+GRUB_CMDLINE_LINUX_DEFAULT="amd_iommu=on iommu=pt processor.max_cstate=5 rcu_nocbs=0_11"
+```
+
 Update grub settings:
 ```bash
 sudo update-grub
