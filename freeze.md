@@ -7,9 +7,10 @@ sudo vim /etc/default/grub
 
 Update the `GRUB_CMDLINE_LINUX_DEFAULT` variable:
 ```bash
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amd_iommu=on iommu=pt processor.max_cstate=5 rcu_nocbs=0_11"
-
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amd_iommu=off"
+
+# Did not work
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amd_iommu=on iommu=pt processor.max_cstate=5 rcu_nocbs=0_11"
 ```
 
 Update grub settings:
