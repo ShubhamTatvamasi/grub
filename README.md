@@ -29,3 +29,10 @@
 https://www.layerstack.com/resources/tutorials/Resetting-root-password-for-Linux-Cloud-Servers-by-booting-into-Single-User-Mode
 
 
+### Grub Cli
+
+Type `normal`, hit Enter, and then tap `Esc` until the menu is displayed. Hitting `Esc` at this point won't drop you to the grub command prompt (so don't worry about hitting `Esc` too many times).
+
+
+
+
